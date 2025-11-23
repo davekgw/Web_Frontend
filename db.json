@@ -1,0 +1,334 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "HTML Dasar",
+      "description": "Belajar struktur dasar HTML untuk membangun halaman web.",
+      "level": "Beginner",
+      "lessons": "Dalam HTML, sebuah halaman web dibangun menggunakan berbagai elemen (tag). Salah satu elemen yang paling dasar adalah tag paragraf. Tag <p> digunakan untuk membuat paragraf teks di dalam halaman web. Browser secara otomatis memberikan jarak sebelum dan sesudah paragraf agar konten lebih mudah dibaca. Pemahaman tentang elemen dasar seperti <p>, <h1>, <a>, dan <img> adalah langkah awal sebelum mempelajari struktur HTML yang lebih kompleks."
+    },
+    {
+      "id": "2",
+      "title": "CSS Dasar",
+      "description": "Belajar dasar styling dan layout pada CSS.",
+      "level": "Beginner",
+      "lessons": "CSS mengatur tampilan visual dari elemen HTML. Salah satu properti paling dasar adalah 'color', yang digunakan untuk mengatur warna teks. Contoh penggunaannya: p { color: blue; }. Dengan CSS, developer bisa mengatur warna, ukuran, margin, padding, dan berbagai aspek lainnya untuk membuat halaman lebih menarik. Properti color adalah pondasi dari styling sebelum mempelajari layout seperti flexbox atau grid."
+    },
+    {
+      "id": "3",
+      "title": "JavaScript Dasar",
+      "description": "Belajar variabel, fungsi, dan DOM.",
+      "level": "Beginner",
+      "lessons": "JavaScript adalah bahasa pemrograman untuk membuat website interaktif. Untuk menampilkan teks ke console, digunakan fungsi console.log(). Ini adalah langkah pertama dalam debugging dan mempelajari alur program. Dengan console.log(), developer dapat melihat nilai variabel, hasil operasi, atau pesan tertentu untuk memastikan program berjalan sesuai harapan."
+    },
+    {
+      "id": "4",
+      "title": "React Dasar",
+      "description": "Belajar komponen, props, dan state.",
+      "level": "Intermediate",
+      "lessons": "React menggunakan konsep komponen, yaitu fungsi atau class yang mengembalikan tampilan UI. Komponen fungsional adalah bentuk paling umum dan ditulis menggunakan function. Contohnya: function Hello() { return <h1>Hello</h1>; }. Dengan komponen, UI bisa dibagi menjadi bagian kecil yang dapat digunakan ulang."
+    },
+    {
+      "id": "5",
+      "title": "Node.js API",
+      "description": "Belajar membuat REST API menggunakan Node.js.",
+      "level": "Intermediate",
+      "lessons": "Saat membuat API dengan Node.js, endpoint digunakan untuk menyediakan data melalui request HTTP. Salah satu metode paling dasar adalah GET, yang digunakan untuk mengambil data dari server. GET tidak mengubah data, hanya membaca. Endpoint GET biasanya ditulis dalam Express dengan app.get('/route', callback)."
+    },
+    {
+      "id": "6",
+      "title": "MySQL Database",
+      "description": "Belajar query SQL, relasi, dan join.",
+      "level": "Intermediate",
+      "lessons": "SQL digunakan untuk mengelola data di dalam database. Query paling dasar untuk mengambil data adalah SELECT. Contoh: SELECT * FROM users; Query SELECT memungkinkan developer membaca data dari tabel dan menjadi dasar sebelum mempelajari WHERE, JOIN, GROUP BY, dan fungsi SQL lainnya."
+    },
+    {
+      "id": "7",
+      "title": "UI/UX Introduction",
+      "description": "Dasar desain UI dan pengalaman pengguna.",
+      "level": "Beginner",
+      "lessons": "Dalam UI/UX, whitespace adalah ruang kosong yang membuat desain lebih rapi, mudah dibaca, dan fokus. Tanpa whitespace, tampilan akan terasa sesak dan sulit dinavigasi. Desain yang baik tidak hanya tentang warna dan bentuk, tetapi bagaimana elemen diberi ruang agar nyaman dilihat."
+    },
+    {
+      "id": "8",
+      "title": "HTML Lanjutan",
+      "description": "Belajar semantic HTML dan SEO.",
+      "level": "Intermediate",
+      "lessons": "Semantic HTML memberikan makna pada struktur halaman web. Salah satu elemen penting adalah <section>, yang digunakan untuk membungkus bagian konten yang memiliki topik tertentu. Elemen semantic membantu SEO dan mempermudah screen reader untuk memahami struktur halaman."
+    },
+    {
+      "id": "9",
+      "title": "CSS Flexbox",
+      "description": "Mengatur layout menggunakan Flexbox.",
+      "level": "Intermediate",
+      "lessons": "Flexbox menyediakan cara mudah mengatur posisi elemen secara horizontal dan vertikal. Salah satu properti terpenting adalah justify-content, yang mengatur penyebaran elemen secara horizontal. Nilai paling umum adalah center, space-between, dan space-around."
+    },
+    {
+      "id": "10",
+      "title": "CSS Grid",
+      "description": "Mengatur layout modern menggunakan Grid.",
+      "level": "Intermediate",
+      "lessons": "CSS Grid memungkinkan pengaturan layout dua dimensi. Untuk menentukan jumlah kolom, digunakan properti grid-template-columns. Contoh: grid-template-columns: 1fr 1fr; untuk membuat dua kolom yang sama lebar. Grid sangat cocok untuk layout kompleks seperti dashboard."
+    },
+    {
+      "id": "11",
+      "title": "JavaScript Lanjutan",
+      "description": "Belajar async, promise, dan fetch API.",
+      "level": "Advanced",
+      "lessons": "Promise adalah objek yang digunakan untuk menangani operasi asynchronous. Promise memiliki tiga status: pending, fulfilled, dan rejected. Promise banyak digunakan saat mengambil data dari API menggunakan fetch."
+    },
+    {
+      "id": "12",
+      "title": "TypeScript Dasar",
+      "description": "Belajar typing, interface dan class.",
+      "level": "Beginner",
+      "lessons": "Dalam TypeScript, tipe data ditulis setelah tanda titik dua. Contoh: let age: number = 20; Dengan typing, error dapat terdeteksi sebelum program berjalan sehingga mempermudah debugging."
+    },
+    {
+      "id": "13",
+      "title": "React Router",
+      "description": "Implementasi routing di React.",
+      "level": "Intermediate",
+      "lessons": "React Router menggunakan hook useParams untuk membaca parameter dari URL. Contohnya, jika route adalah /course/:id, maka useParams() dapat mengambil nilai id untuk menampilkan detail data yang sesuai."
+    },
+    {
+      "id": "14",
+      "title": "Tailwind CSS",
+      "description": "Utility-first CSS untuk membuat UI cepat.",
+      "level": "Beginner",
+      "lessons": "Tailwind menggunakan class siap pakai. Untuk membuat teks berwarna merah, digunakan class text-red-500. Class Tailwind mengikuti pola konsisten sehingga developer tidak perlu menulis CSS manual."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "question": "Tag mana yang digunakan untuk membuat paragraf?",
+      "options": [
+        "<div>",
+        "<p>",
+        "<text>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "question": "Properti CSS apa yang digunakan untuk mengubah warna teks?",
+      "options": [
+        "font-style",
+        "color",
+        "text-decoration"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "question": "Fungsi mana yang digunakan untuk menampilkan teks ke console?",
+      "options": [
+        "print()",
+        "log()",
+        "console.log()"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "question": "React menggunakan apa untuk membangun UI?",
+      "options": [
+        "Komponen",
+        "Class saja",
+        "Database"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "question": "Metode HTTP mana yang digunakan untuk mengambil data?",
+      "options": [
+        "POST",
+        "DELETE",
+        "GET"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "6",
+      "courseId": 6,
+      "question": "Query SQL apa yang digunakan untuk mengambil data?",
+      "options": [
+        "DELETE",
+        "INSERT",
+        "SELECT"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "7",
+      "courseId": 7,
+      "question": "Whitespace dalam UI berarti apa?",
+      "options": [
+        "Ruang kosong",
+        "Teks putih",
+        "Border putih"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "8",
+      "courseId": 8,
+      "question": "Elemen HTML mana yang bersifat semantic?",
+      "options": [
+        "<bold>",
+        "<section>",
+        "<p1>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "9",
+      "courseId": 9,
+      "question": "Properti Flexbox untuk mengatur posisi horizontal?",
+      "options": [
+        "align-items",
+        "justify-content",
+        "flex-wrap"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "10",
+      "courseId": 10,
+      "question": "Properti mana yang mengatur jumlah kolom Grid?",
+      "options": [
+        "grid-gap",
+        "grid-template-columns",
+        "display"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "11",
+      "courseId": 11,
+      "question": "Apa yang digunakan untuk menangani async di JavaScript?",
+      "options": [
+        "Loop",
+        "Promise",
+        "Selector"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "12",
+      "courseId": 12,
+      "question": "Bagaimana cara menulis tipe number di TypeScript?",
+      "options": [
+        "let age = number;",
+        "let age: number;",
+        "let number: age;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "13",
+      "courseId": 13,
+      "question": "Hook React Router untuk membaca parameter URL?",
+      "options": [
+        "useRoute()",
+        "useParams()",
+        "useURL()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "14",
+      "courseId": 14,
+      "question": "Class Tailwind untuk membuat teks merah?",
+      "options": [
+        "text-red-500",
+        "red-text-500",
+        "font-red"
+      ],
+      "answer": 0
+    }
+  ],
+  "discussion": [
+    {
+      "id": "1",
+      "name": "Fidel",
+      "comment": "Bagus sekali materinya!"
+    },
+    {
+      "id": "5290",
+      "name": "Dave",
+      "comment": "Pertanyaan yang banyak!"
+    },
+    {
+      "id": "22bf",
+      "name": "jii",
+      "comment": "sadisss"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Dave Koagow (Leader)",
+      "tugas": "Back-end Developer",
+      "email": "S22020170@student.unklab.ac.id",
+      "username": "dave",
+      "password": "dave132",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Fidel Lolong",
+      "tugas": "Front-end Developer",
+      "email": "S22129060@student.unklab.ac.id",
+      "username": "fidel",
+      "password": "fidel123",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Christian Wouw",
+      "tugas": "Project Manager",
+      "email": "S22210640@student.unklab.ac.id",
+      "username": "kipal",
+      "password": "kipal132",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "name": "Doni Matindas",
+      "tugas": "UI/UX Designer",
+      "email": "S930020@student.unklab.ac.id",
+      "username": "doni",
+      "password": "doni132",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "name": "Sthaford Mamahit",
+      "tugas": "Database Engineer",
+      "email": "12410221@student.unklab.ac.id",
+      "username": "sthaford",
+      "password": "sthaford132",
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "d2cc",
+      "username": "dep",
+      "password": "user",
+      "role": "user"
+    }
+  ]
+}
